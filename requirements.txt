@@ -1,0 +1,11 @@
+# Tool warm-up (roadmap part 2) + supporting scientific stack.
+# Create/activate the venv, then:
+#   .venv\Scripts\python.exe -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+
+openseespy==3.8.0.0
+neuraloperator==2.0.0
+matplotlib
+scipy
+h5py
+numpy
