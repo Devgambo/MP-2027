@@ -1,0 +1,68 @@
+{
+  "loose": {
+    "liquefied_depth_m": 10.0,
+    "ru_peak_max": 1.0069402401693455,
+    "ru_end_max": 0.9748918015890734,
+    "t_liq_s_by_depth": {
+      "10.0": 2.56,
+      "9.0": 2.4,
+      "8.0": 1.71,
+      "7.0": 1.4,
+      "6.0": 1.31,
+      "5.0": 1.64,
+      "4.0": 1.44,
+      "3.0": 1.44,
+      "2.0": 20.05,
+      "1.0": null
+    },
+    "surface_acc_late_over_early": 0.3362499990958916,
+    "settlement_mm": 1.825882875799221,
+    "runtime_s": 13.04175615310669,
+    "converged": true,
+    "fs_lt_1_depth_m": 9.75
+  },
+  "medium": {
+    "liquefied_depth_m": 9.0,
+    "ru_peak_max": 1.0220698958215877,
+    "ru_end_max": 0.9507542277828696,
+    "t_liq_s_by_depth": {
+      "10.0": null,
+      "9.0": 6.69,
+      "8.0": 6.17,
+      "7.0": 2.9,
+      "6.0": 3.21,
+      "5.0": 5.4,
+      "4.0": 1.73,
+      "3.0": 1.78,
+      "2.0": 2.29,
+      "1.0": 21.8
+    },
+    "surface_acc_late_over_early": 0.11432323600489856,
+    "settlement_mm": 1.896174937700167,
+    "runtime_s": 58.31943082809448,
+    "converged": true,
+    "fs_lt_1_depth_m": 9.75
+  },
+  "dense": {
+    "liquefied_depth_m": 3.5,
+    "ru_peak_max": 0.9651330544266252,
+    "ru_end_max": 0.40784096109727846,
+    "t_liq_s_by_depth": {
+      "10.0": null,
+      "9.0": null,
+      "8.0": null,
+      "7.0": null,
+      "6.0": null,
+      "5.0": null,
+      "4.0": null,
+      "3.0": null,
+      "2.0": null,
+      "1.0": null
+    },
+    "surface_acc_late_over_early": 1.2998225815326854,
+    "settlement_mm": 0.9635486501235723,
+    "runtime_s": 14.038705825805664,
+    "converged": true,
+    "fs_lt_1_depth_m": 0.0
+  }
+}
