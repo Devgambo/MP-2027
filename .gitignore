@@ -1,1 +1,18 @@
 /.venv
+
+# generated data and licensed PEER records (download locally, see data/peer/README.md)
+data/*.h5
+data/peer/*.AT2
+data/peer/*.DT2
+data/peer/*.VT2
+data/peer/*.at2
+data/peer/*.dt2
+data/peer/*.vt2
+data/peer/*.zip
+data/peer/*.csv
+__pycache__/
+.pytest_cache/
+
+# part 5 trained weights and test predictions (regenerate with mini_surrogate.train)
+results/part5/models/
+results/part5_*_log.txt

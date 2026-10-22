@@ -1,0 +1,157 @@
+{
+ "fno2d_m64_w32": {
+  "model": "fno",
+  "kw": {
+   "modes": [
+    10,
+    64
+   ],
+   "width": 32
+  },
+  "weight_decay": 0.0001,
+  "n_params": 1365089,
+  "best_epoch": 27,
+  "val_rmse": 0.15308523178100586,
+  "final_train_rmse": 0.04739094405762432,
+  "train_time_s": 405.1429352760315
+ },
+ "fno2d_m256_w16": {
+  "model": "fno",
+  "kw": {
+   "modes": [
+    10,
+    256
+   ],
+   "width": 16
+  },
+  "weight_decay": 0.0001,
+  "n_params": 1324593,
+  "best_epoch": 74,
+  "val_rmse": 0.12084845453500748,
+  "final_train_rmse": 0.04615257938884752,
+  "train_time_s": 218.7864010334015
+ },
+ "fno2d_m128_w24_wd": {
+  "model": "fno",
+  "kw": {
+   "modes": [
+    10,
+    128
+   ],
+   "width": 24
+  },
+  "weight_decay": 0.01,
+  "n_params": 1505353,
+  "best_epoch": 28,
+  "val_rmse": 0.13879342377185822,
+  "final_train_rmse": 0.054300927919836824,
+  "train_time_s": 308.401300907135
+ },
+ "fno1d_m64_w48": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 64,
+   "width": 48
+  },
+  "weight_decay": 0.0001,
+  "n_params": 335204,
+  "best_epoch": 23,
+  "val_rmse": 0.13914301991462708,
+  "final_train_rmse": 0.04928518130721274,
+  "train_time_s": 41.87528443336487
+ },
+ "fno1d_m128_w32": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 128,
+   "width": 32
+  },
+  "weight_decay": 0.0001,
+  "n_params": 280820,
+  "best_epoch": 20,
+  "val_rmse": 0.15192165970802307,
+  "final_train_rmse": 0.05586375747117206,
+  "train_time_s": 40.976972818374634
+ },
+ "fno1d_m256_w24": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 256,
+   "width": 24
+  },
+  "weight_decay": 0.0001,
+  "n_params": 305852,
+  "best_epoch": 73,
+  "val_rmse": 0.12086282670497894,
+  "final_train_rmse": 0.05558784535029197,
+  "train_time_s": 41.27366638183594
+ },
+ "fno1d_m128_w32_wd": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 128,
+   "width": 32
+  },
+  "weight_decay": 0.01,
+  "n_params": 280820,
+  "best_epoch": 20,
+  "val_rmse": 0.15188153088092804,
+  "final_train_rmse": 0.05608200439682304,
+  "train_time_s": 40.47190046310425
+ },
+ "fno1d_m256_w24_e200": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 256,
+   "width": 24
+  },
+  "weight_decay": 0.0001,
+  "n_params": 305852,
+  "best_epoch": 119,
+  "val_rmse": 0.11991117894649506,
+  "final_train_rmse": 0.036707251287894656,
+  "train_time_s": 75.96984052658081
+ },
+ "fno1d_m500_w16_e200": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 500,
+   "width": 16
+  },
+  "weight_decay": 0.0001,
+  "n_params": 261252,
+  "best_epoch": 166,
+  "val_rmse": 0.13034477829933167,
+  "final_train_rmse": 0.039722376744651386,
+  "train_time_s": 75.45531606674194
+ },
+ "fno1d_m500_w32_e200": {
+  "model": "fno1d",
+  "kw": {
+   "modes": 500,
+   "width": 32
+  },
+  "weight_decay": 0.0001,
+  "n_params": 1042676,
+  "best_epoch": 175,
+  "val_rmse": 0.10732851177453995,
+  "final_train_rmse": 0.027910048434570133,
+  "train_time_s": 81.2327926158905
+ },
+ "fno2d_m500_w12_e200": {
+  "model": "fno",
+  "kw": {
+   "modes": [
+    10,
+    500
+   ],
+   "width": 12
+  },
+  "weight_decay": 0.0001,
+  "n_params": 1447909,
+  "best_epoch": 156,
+  "val_rmse": 0.11480347067117691,
+  "final_train_rmse": 0.024119787182059104,
+  "train_time_s": 347.8889946937561
+ }
+}

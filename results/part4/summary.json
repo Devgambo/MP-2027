@@ -1,0 +1,26 @@
+{
+  "n_cases": 100,
+  "generation_time_s": 19.5,
+  "duration_s": [
+    74.2,
+    139.7
+  ],
+  "peak_wave_force_MN": [
+    0.44,
+    6.5
+  ],
+  "peak_wave_moment_MNm": [
+    8.4,
+    117.0
+  ],
+  "kc_range": [
+    0.61,
+    7.37
+  ],
+  "example_Hs6_Tp11": {
+    "peak_force_MN": 3.83,
+    "drag_share_of_peak": 0.099,
+    "kc": 4.47
+  },
+  "tp_raised_by_steepness": 11
+}

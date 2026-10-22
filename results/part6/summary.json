@@ -1,0 +1,43 @@
+{
+ "waves": {
+  "ok": true,
+  "runtime_min": 5.059035233656565,
+  "steps": 1691,
+  "sim_time_s": 84.55000000000001,
+  "peak_tilt_deg": 0.012070245227579324,
+  "final_tilt_deg": -0.003208991126553258,
+  "tilt_before_quake_deg": -0.0012569749056849005,
+  "peak_hub_disp_m": 0.09345757524790257,
+  "final_settlement_mm": 1.0264717451201009,
+  "peak_ru_far_field": 0.054194748401641846,
+  "peak_ru_near_pile": 0.22135862708091736
+ },
+ "quake": {
+  "ok": true,
+  "runtime_min": 189.31050575574238,
+  "steps": 3899,
+  "sim_time_s": 84.55000000000001,
+  "peak_tilt_deg": 3.8169611539345145,
+  "final_tilt_deg": 3.81442756278697,
+  "tilt_before_quake_deg": -1.3955314565076838e-16,
+  "peak_hub_disp_m": 11.745685175688859,
+  "final_settlement_mm": 123.14490302094754,
+  "peak_ru_far_field": 2.984492063522339,
+  "peak_ru_near_pile": 2.5042004585266113
+ },
+ "combined": {
+  "ok": true,
+  "runtime_min": 210.62948036193848,
+  "steps": 3899,
+  "sim_time_s": 84.55000000000001,
+  "peak_tilt_deg": 3.014034296503316,
+  "final_tilt_deg": 2.963265055573311,
+  "tilt_before_quake_deg": -0.0012580863484610457,
+  "peak_hub_disp_m": 9.42995532201302,
+  "final_settlement_mm": 129.63525565941666,
+  "peak_ru_far_field": 5.002430438995361,
+  "peak_ru_near_pile": 2.8326034545898438
+ },
+ "free_field_vs_column_ru_rmse_8m": 0.3758552613228638,
+ "column_runtime_min": 8.211961408456167
+}
